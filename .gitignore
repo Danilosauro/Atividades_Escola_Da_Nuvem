@@ -1,0 +1,63 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Config do VSCode/PyCharm/etc
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pipenv/poetry
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# mypy, pyright, pylint, etc
+.mypy_cache/
+.pyre/
+.pytype/
+.pytest_cache/
+
+# Dados sensíveis (caso existam)
+.env
+.env.*
+
+# Arquivos de distribuição
+*.tar.gz
+*.whl
